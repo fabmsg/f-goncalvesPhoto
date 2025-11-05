@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Filipe Gonçalves Photography</title>
+    <meta
+      name="description"
+      content="Portfolio of Filipe Gonçalves – photographer capturing the Atlantic light, storytelling portraits, and evocative travel imagery."
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <a class="logo" href="index.html">Filipe Gonçalves</a>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Portfolio</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="business.html">Other Ventures</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-text">
+          <h1>Atlantic light. Human stories. Crafted photographs.</h1>
+          <p>
+            I’m Filipe Gonçalves, a photographer focused on luminous coastal landscapes,
+            intimate portraiture, and visual narratives that honour people and place.
+            My portfolio highlights work from across Portugal, Europe, and the Atlantic –
+            always with a painterly feel and a love for texture and light.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="gallery.html">View Portfolio</a>
+            <a class="button outline" href="about.html">Meet Filipe</a>
+          </div>
+        </div>
+        <div class="hero-gallery">
+          <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80" alt="Ocean cliffs at sunset" />
+          <img src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=900&q=80" alt="Portrait of a woman in natural light" />
+          <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80" alt="Waves crashing on rocks" />
+          <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=900&q=80" alt="Travel street scene" />
+          <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=900&q=80" alt="Forest with sunlight" />
+          <img src="https://images.unsplash.com/photo-1437915015400-137312b61975?auto=format&fit=crop&w=900&q=80" alt="Atlantic coast" />
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Featured Stories</h2>
+        <p>
+          From editorial commissions to personal art projects, these stories embody the
+          blend of documentary honesty and fine-art sensibility that defines my work.
+        </p>
+        <div class="featured-projects">
+          <article class="card">
+            <h3>Sea Lines</h3>
+            <p>
+              A series exploring the conversations between the ocean and those who live
+              beside it – fishermen, surfers, and the families who rely on the tides.
+            </p>
+            <a href="gallery.html#seascapes">View Series</a>
+          </article>
+          <article class="card">
+            <h3>Portraits in Motion</h3>
+            <p>
+              Movement-filled portraits created with dancers, athletes, and makers.
+              Each photograph captures rhythm, dedication, and the poetry of muscle and
+              breath.
+            </p>
+            <a href="gallery.html#portraits">View Series</a>
+          </article>
+          <article class="card">
+            <h3>Atlantic Memories</h3>
+            <p>
+              A long-form visual essay tracing the coastline from Porto to the Azores,
+              focusing on heritage, light, and the environmental stories unfolding there.
+            </p>
+            <a href="gallery.html#travel">View Series</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Working Together</h2>
+        <p>
+          I collaborate with magazines, tourism boards, cultural institutions, and
+          independent creatives. Whether you’re seeking imagery for publication,
+          exhibitions, or bespoke prints, I craft each project with intention and
+          thoughtful storytelling.
+        </p>
+        <a class="button primary" href="services.html">Explore Services</a>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-links">
+          <a href="mailto:hello@f-goncalves.com">hello@f-goncalves.com</a>
+          <a href="https://www.instagram.com/filipegoncalves" target="_blank" rel="noopener">Instagram</a>
+          <a href="gallery.html">Portfolio</a>
+          <a href="business.html">Other Ventures</a>
+        </div>
+        <small>© <span id="year"></span> Filipe Gonçalves. All rights reserved.</small>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
